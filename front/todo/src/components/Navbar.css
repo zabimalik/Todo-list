@@ -1,0 +1,75 @@
+/* Navbar Container */
+.navbar {
+    background: none;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 2px;
+   
+  }
+  
+  /* Navbar inner container */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  /* Logo */
+  .navbar-logo {
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    font-size: 50px;
+  font-weight: bolder;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 1px black; /* For webkit browsers like Chrome and Safari */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+
+  }
+  
+  /* Navigation Menu */
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Navigation Items */
+  .nav-item {
+    height: 80px;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 3.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links:hover {
+    font-size: xx-large;
+    -webkit-text-stroke: 1px black; /* For webkit browsers like Chrome and Safari */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+     padding: 0rem 3.5rem;
+    
+    transition: all 0.2s ease-in-out;
+  }
+  
